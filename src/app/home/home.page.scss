@@ -1,0 +1,29 @@
+ion-header {
+    ion-toolbar {
+        --border-width: 0;
+        --backdround: #111111;
+        ion-title {
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            font-size: 16px;
+            color: #ffffff;
+            background-color: #111111;
+            font-weight: bold;
+        }
+    }
+}
+ion-content {
+    --background: #111111;
+    section.lista {
+        box-sizing: border-box;
+        display: grid;
+        padding: 1px;
+        grid-gap: 1px;
+        grid-template-columns: repeat(3, 1fr);
+        background-color: #111111;
+        img {
+            display: block;
+        }
+    }
+}

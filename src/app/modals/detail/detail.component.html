@@ -1,0 +1,14 @@
+<ion-content>
+  <div class="picture-container" [style.background-image]="'url('+ item.picture +')'"></div>
+  <div class="box-container">
+    <div class="box-content">
+      <h1>{{ item.title }}</h1>
+      <p>{{ item.description }}</p>
+    </div>
+  </div>
+</ion-content>
+<ion-footer>
+  <ion-toolbar (click)="close()">
+    GOSTEI
+  </ion-toolbar>
+</ion-footer>

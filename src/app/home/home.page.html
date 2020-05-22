@@ -1,0 +1,11 @@
+<ion-header>
+    <ion-toolbar>
+        <ion-title>BOOK-FLIX</ion-title>
+    </ion-toolbar>
+</ion-header>
+<ion-content>
+    <section class="lista">
+        <!-- Na função openDetail eu paço o Evento da ação com o $event -->
+        <img *ngFor="let item of items" (click)="openDetail($event, item)" [src]="item.picture" />
+    </section>
+</ion-content>
