@@ -5,4 +5,4 @@ O Código está bem explicativo.
 
 ## Demonstração
 
-![alt text](https://github.com/DieOver/ionic-shared-animation/tree/master/src/assets/shared-animation.gif "Shared Animation")
+![alt text](https://github.com/DieOver/ionic-shared-animation/blob/master/src/assets/shared-animation.gif?raw=true "Shared Animation")
